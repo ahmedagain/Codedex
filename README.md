@@ -1,2 +1,2 @@
 # Codedex
-Language learning projects.
+Programming Practice & Language Learning Projects
