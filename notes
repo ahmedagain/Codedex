@@ -28,3 +28,13 @@ elif clause can be added between if and else.
 else executes the code if none of the above is True.
 Relational operators are used to compare two values: ==, !=, >, >=, <, <=.
 Logical operators are used to combine two or more conditions: and, or, not.
+
+# Loops
+The while loop iterates over and over again while the condition is true:
+The for loop and the range() function to iterate for a certain number of times: 
+The range() function returns a sequence of numbers. By default, the sequence starts at 0 and increments by 1, ending at a specified number.
+range() actually ends one before the specified number (because code starts at 0).
+If the condition is False from the get-go, then the code block wouldn't run at all and will be skipped.
+String interpolation is a process of substituting values of variables into placeholders in a string.
+
+
