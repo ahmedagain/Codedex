@@ -37,4 +37,38 @@ range() actually ends one before the specified number (because code starts at 0)
 If the condition is False from the get-go, then the code block wouldn't run at all and will be skipped.
 String interpolation is a process of substituting values of variables into placeholders in a string.
 
+# Lists
+Lists are used to store multiple items in a single variable.
+Lists are created using square brackets [ and ]. And the items are separated by , commas.
+List items are changeable, meaning we can update individual items within a list.
+An index is an item's position in a list.
+Python is 0-indexed, meaning that the indices starts at 0:
+To output each of the items, we can use the name[index] syntax:
+Another thing to note about index is that it can be positive or negative.
+Slicing is where we can access certain parts of a sequence.
+Instead of accessing an item using a single index like name[index], we can get multiple items by specifying where to start and where to end the range like name[start : end].
+It starts from the start index (inclusive) and ends before the end index (non-inclusive).
+There is a common error in Python when dealing with sequences called the IndexError. This is what happens when the index is out of the range of a list.
+The len() function returns the total length of a list.
+The max() function returns the maximum value in a list.
+The min() function returns the minimum value in a list.
+.append() Add an item to the end of the list
+.clear() Remove all items from the list
+.copy()	Return a shallow copy of the list
+.count() Return the number of times the value appears in the list
+.extend() Appends another list to the current list by extending it
+.index() Returns the index of a value inside the list
+.insert() Insert an item at a specified position in the list
+.pop() Remove an item from a specified position in the list
+.remove() Remove an item from the list based on the value of the item
+.reverse() Reverses the list in place
+.sort()	Sorts the list in place
+The difference between built-in functions and methods on a list is that methods use the dot notation syntax on the list variable we create. 
+Built-in functions can be called by themselves, but methods are always attached to a list variable from which they are being called.
+Another notable difference is that while not all the built-in functions are defined to work with lists, the list methods only work with lists.
+
+
+
+
+
 
