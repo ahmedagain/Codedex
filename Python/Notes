@@ -59,6 +59,23 @@ Python has built-in functions like len(), max(), min().
 Lists have built-in methods like .append(), .insert(), .remove(), .pop().
 We can iterate over a list using for-in.
 
+# Functions
+“Don't Repeat Yourself” (DRY) is a principle in software development aimed at reducing repetition and writing good clean code. Functions play a big part.
+A function is a reusable block of code that performs a specific task.
+To execute this block of code, you just need to write the function's name, followed by a pair of parenthesis ( ).
+User-defined functions are functions we define ourselves to do a specific task, and it's a two-step process: 1️) define and 2️) call.
+To define a function, we need a function definition. A function definition begins with the def keyword, followed by the function name, a set of parentheses, and a colon, in that order.
+And just like if statements and while loops, the code inside a function must be indented.
+Parameters are just a fancy word for input. They are variables that a functions takes in. They go inside the parentheses in the function definition and are used inside the function.
+The parameter is the variable listed inside the parenthesis in the function definition (when we define the function).
+The argument is the value sent to the function (when we call the function).
+The return keyword is used to terminate a function and output a value:
+When we don't add it, Python will implicitly return the default value, None, as the return value.
+Scope determines where in the program a variable is visible and can be used.
+The scope of the answer variable is only inside the add() function. It is a local variable that belongs to the local scope of the add() function.
+Now, a variable created outside of a function is called a global variable and belongs to the global scope, meaning that they can be used by every function.
+If we create a variable with the same name inside a function, it will be a local variable and can only be used inside the function. The global variable with the same name will remain global and with the original value.
+
 
 
 
